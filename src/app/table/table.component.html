@@ -1,0 +1,99 @@
+<div class="container-fluid g-0 p-2">
+   <div class="row g-0">
+    <div class="col-md-2">
+   <img src="../../assets/images/Arkenea.jpg" alt="">
+    </div>
+    <div class="col ps-2">
+        <div class="row g-0">
+
+            <div class="col-md-10" style="text-align: center;">
+
+<span class="name">{{employee.firstName | titlecase}} {{employee.lastName | titlecase}} </span>
+            </div>
+            <div class="col-md-2">
+<div class="btn-group" role="group">
+    <button type="button" class="btn btn-success" (click)="editEmployeeClicked()" >Edit</button>
+    <button type="button" class="btn btn-secondary" (click)="deleteEmployeeClicked()" >delete</button>
+</div>
+            </div>
+
+           
+        </div>
+
+        <div class="row g-0 mt-3">
+            <div class="col-md">
+
+                <table>
+                    <thead>
+                        <tr>
+                            <td colspan="2"> <h4> Personal Details </h4></td>
+
+                        </tr>
+                    </thead>
+                    <tbody> <tr>
+                        <td>Birthday</td>
+                        <td>{{employee.birthday}}</td>
+                        
+                    </tr>
+                  
+<tr>
+    <td>Gender</td>
+    <td>{{employee.gender == 'm' ? "Male" : "Female"}}</td>
+                       
+</tr>
+
+                  
+<tr>
+    <td>Contact number:- 7420027023</td>
+                       
+</tr>
+
+
+                    </tbody>
+                </table>
+
+
+            </div>
+
+            <div class="col-md">
+                <table>
+                    <thead>
+                        <tr>
+                            <td colspan="2"><h4>Corporate office</h4> </td>
+
+                        </tr>
+                    </thead>
+                    <tbody> 
+                        <tr>
+                        <td>Corporate office: S. No 249, 250, 251,</td>
+                        <td>{{employee.companyLocation}}</td>
+                        
+                    </tr>
+                    <tr>
+                       
+                        <td>Office No 13,2nd Floor,</td>
+                        <td>{{employee.phoneNumber}}</td>
+                    </tr>
+
+<tr>
+    <td> B Building,Ganga Osian Square (GO Square)</td>
+                        
+</tr>
+<tr>
+    <td> Wakad-57, Pune
+    </td>
+                        
+</tr>
+
+                    </tbody>
+                </table>
+
+            </div>
+
+        </div>
+    </div>
+   </div>
+
+
+</div>
+

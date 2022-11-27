@@ -1,0 +1,69 @@
+
+
+{
+  "machineInformation": [
+                   
+                {
+                  "machineNumber": "314811",
+                  "serialNumber": "017321",
+                  "machineType": "CRM1"
+                  
+                },
+                {
+                 "machineNumber": "314811",
+                  "serialNumber": "017324",
+                  "machineType": "CRM2"
+                  
+                },
+                {
+                  "machineNumber": "314812",
+                  "serialNumber": "017322",
+                  "machineType": "CRM2"
+                  
+                },
+                {
+                  "machineNumber": "314813",
+                  "serialNumber": "017323",
+                  "machineType": "CRM3"
+                  
+                },
+                 {
+                  "machineNumber": "314814",
+                  "serialNumber": "017324",
+                  "machineType": "CRM4"
+                  
+                },
+                 {
+                  "machineNumber": "314814",
+                  "serialNumber": "017324",
+                  "machineType": "CRM4"
+                  
+                },
+                {
+                  "machineNumber": "314814",
+                  "serialNumber": "017324",
+                  "machineType": "CRM4"
+                  
+                },
+                 {
+                  "machineNumber": "314814",
+                  "serialNumber": "017324",
+                  "machineType": "CRM4"
+                  
+                },
+                 {
+                 "machineNumber": "314814",
+                  "serialNumber": "017324",
+                  "machineType": "CRM4"
+                  
+                },
+                {
+                  "machineNumber": "314814",
+                  "serialNumber": "017324",
+                  "machineType": "CRM4"
+                  
+                }
+            
+          ]
+    
+}
